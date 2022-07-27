@@ -139,6 +139,7 @@ const getHistory = async (fileName) => {
             return
         }
     } catch (err) {
+        fs.mkdir('history', (err) => {})
         console.error(err)
     }
 }
