@@ -1,14 +1,14 @@
 {
-  "name": "pancakeswap-prediction-bot",
-  "version": "2.0.0",
-  "description": "PancakeSwap Prediction Bot using AI recomendations.",
+  "name": "bet-bot",
+  "version": "1.0.0",
+  "description": "PancakeSwap Prediction Bot using Trading View signal",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "M3prime",
-  "license": "ISC",
+  "author": "Kittisak Phetrungnapha",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0",
     "big.js": "^6.1.1",
